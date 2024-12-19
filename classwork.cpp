@@ -28,7 +28,7 @@ std::cin >> user_input;
 
 if (user_input ==0)
 {
-  int random_number = (std::rand() 6&) + 1; // random numbers between 1 and 6
+  int random_number = (std::rand() % 6) + 1; // random numbers between 1 and 6
   std::cout << "Ypu rolled a " << random_number << std::endl;
 }
 else
@@ -36,7 +36,7 @@ else
   if (user_input ==1)
   {
     std::cout << "Enter two numbers\n";
-    std::cin >> num1 >> num 2;
+    std::cin >> num1 >> num2;
     std::cout << "Their sum is " << (num1 + num2) << std::endl;
   }
   else
@@ -87,7 +87,7 @@ else
         }
         else
         {
-          if (user_input ! = 99)
+          if (user_input != 99)
           {
             std::cout<< "Invalid option, please choose again.\n";
           }
